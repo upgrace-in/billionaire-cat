@@ -17,12 +17,6 @@ import { Stalking } from "./components/Stalking/index.jsx";
 
 const App = () => {
 
-  // useEffect(() => {
-
-  //   Aos.init({ duration: 2000 });
-
-  // }, [])
-
   const [toggleSidebar, setToggleSidebar] = useState(true)
 
 

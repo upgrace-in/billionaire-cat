@@ -26,7 +26,7 @@ function Header({ toggleSidebar, setToggleSidebar }) {
           <a href={whitepaper} target="_blank" className="mr-5 hover:text-gray-300 text-lg text-white">Whitepaper</a>
         </nav>
         <div className='space-x-3 hide-bar'>
-          <Link to="/cat-mint" id='mint_link_id' className="h-button-1 px-8 text-white inline-flex items-center text-xl  border-0 py-2  focus:outline-none  rounded  mt-4 md:mt-0">MINT
+          <Link to="/cat-mint" className="h-button-1 px-8 text-white inline-flex items-center text-xl  border-0 py-2  focus:outline-none  rounded  mt-4 md:mt-0">MINT
           </Link>
           <Link to="/stalking" className="h-button-2 px-8 inline-flex items-center  border-0 py-2  text-xl focus:outline-none text-white rounded  mt-4 md:mt-0">STAKING
           </Link>
