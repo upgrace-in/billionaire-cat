@@ -3,7 +3,6 @@ import Footer from "../Footer/Footer";
 import {
     Link,
 } from "react-router-dom";
-// import {Helmet} from 'react-helmet';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
 import ProgressBar from "@ramonak/react-progress-bar";
 
