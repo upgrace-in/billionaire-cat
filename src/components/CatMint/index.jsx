@@ -18,7 +18,7 @@ export const CatMint = () => {
                         <script type="text/javascript" src="https://unpkg.com/web3modal"></script>
                         <script type="text/javascript" src="https://unpkg.com/@walletconnect/web3-provider"></script>
 
-                        <script src="/js/mint.js" type="text/javascript" />
+                        <script src="/static/js/mint.js" type="text/javascript" />
                     </Helmet>
             </HelmetProvider>
             <div className='container mx-auto text-white mt-[159px]'>
