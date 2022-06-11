@@ -157,4 +157,4 @@ function render_me() {
 
 setTimeout(() => {
     render_me();
-}, 1000);
+}, 3000);
