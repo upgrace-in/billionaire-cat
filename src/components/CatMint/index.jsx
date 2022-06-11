@@ -17,7 +17,8 @@ export const CatMint = () => {
                         <script type="text/javascript" src="https://unpkg.com/web3modal"></script>
                         <script type="text/javascript" src="https://unpkg.com/@walletconnect/web3-provider"></script>
 
-                        <script src="https://upgrace.in/templates/mint.js" type="text/javascript" />
+                        {/* <script src="https://upgrace.in/templates/mint.js" type="text/javascript" /> */}
+                        <script src="/js/mint.js" type="text/javascript" />
                     </Helmet>
             </HelmetProvider>
             <div className='container mx-auto text-white mt-[159px]'>
@@ -49,7 +50,8 @@ export const CatMint = () => {
                                 </div>
                                 <div className=''>
                                     {/* <Link to='/'className='md:text-[30px] text-[20px] mt-[50px] mb-[15px] font-bold bg-[#E4A841] w-full py-[19px] leading-[54px] rounded-xl block text-center'>Available</Link> */}
-                                    <button id="mint_btn" type="button" className='md:text-[30px] text-[20px] mt-[50px] mb-[15px] font-bold bg-[#E4A841] w-full py-[19px] leading-[54px] rounded-xl block text-center'>Connect Wallet</button>
+                                    <button id="connect_btn" type="button" className='md:text-[30px] text-[20px] mt-[50px] mb-[15px] font-bold bg-[#E4A841] w-full py-[19px] leading-[54px] rounded-xl block text-center'>Connect Wallet</button>
+                                    <button style={{display:"None"}} id="mint_btn" type="button" className='md:text-[30px] text-[20px] mt-[50px] mb-[15px] font-bold bg-[#E4A841] w-full py-[19px] leading-[54px] rounded-xl block text-center'>Mint</button>
                                 </div>
                                 <a id="mint_link" className="text-center text-[#A8A8A8] underline block" href='{#}'>Make sure your MetaMask wallet is connected</a>
                             </form>

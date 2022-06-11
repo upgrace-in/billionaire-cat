@@ -56,9 +56,8 @@ function check_if_connected() {
                 // One TIME
                 if (startup == false) {
                     startup = true;
-                    $('#mint_btn').click(async () => {
-                        trigger_minting(mint_count);
-                    })
+                    $('#connect_btn').hide();
+                    $('#mint_btn').show();
                     // total supply
                     await contract.methods.totalSupply().call().then(function (res, err) {
                         if (res) {
@@ -109,8 +108,12 @@ function render_me() {
 
     $('#mint_link_id').hide();
 
-    $('#mint_btn').click(async () => {
+    $('#connect_btn').click(async () => {
         await connectWeb3();
+    })
+
+    $('#mint_btn').click(async () => {
+        await trigger_minting(mint_count);
     })
 
     $('#max_btn').click((e) => {
